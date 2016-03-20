@@ -182,3 +182,62 @@ lrtkpoi4o0
   168  echo $hostname
   169  echo $HOSTNAME
   170  history > history.$HOSTNAME
+  171  mkdir history
+  172  mv history.server01 history
+  173  tree
+  174  git status
+  175  git add history
+  176  git status
+  177  git add historytree
+  178  tree
+  179  git status
+  180  git commit -m "Inicializacion del repositorio"
+  181  git commit --amend --reset-author
+  182  git log
+  183  git status
+  184* 
+  185  git status
+  186  git log
+  187  ld
+  188  ls
+  189  mv history.server01 history
+  190  ls
+  191  git status
+  192  mkdir file2
+  193  dmesg | tail > file2
+  194  rm file2/
+  195  rm -r file2/
+  196  catch file2
+  197  touch file2
+  198  dmesg | tail > file2
+  199  mkdir dir1
+  200  netstat -atunpl > dir1/file3
+  201  tree
+  202  ls -lh
+  203  git add dir1/file3
+  204  git add file2
+  205  git status
+  206  touch file1
+  207  git status
+  208  git commit -m "cabeza del kernel + estado de las conecixiones"
+  209  git log
+  210  git commit -m "cabeza del kernel + estado de las conecixiones"
+  211  netstat -r
+  212  netstat -r >> file2
+  213  git status
+  214  git add file2
+  215  git log
+  216  git status
+  217  git commit -m "Tabla de enrutamiento del servidor"
+  218  git log
+  219  git remote add repo.github http://github.com/lasmiranda/LSX_LAURA.SEGURA.git
+  220  git remote -v
+  221  git push -u repo.git master
+  222  git push -u repo.github master
+  223  git push -u repo.git master
+  224  git push -u repo.github master
+  225  git remote add repo.github http://github.com/lasmiranda/LSX1_LAURA.SEGURA.git
+  226  git remote add repo1.github http://github.com/lasmiranda/LSX1_LAURA.SEGURA.git
+  227  git push -u repo1.github master
+  228  history
+  229  history > history/history.server01 
