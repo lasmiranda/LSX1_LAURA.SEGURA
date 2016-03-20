@@ -1,0 +1,10 @@
+[24437.753970] usb 1-1: USB disconnect, device number 4
+[24438.385784] usb 1-1: new full-speed USB device number 5 using ohci-pci
+[24438.641456] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+[24438.641467] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+[24438.641472] usb 1-1: Product: USB Tablet
+[24438.641476] usb 1-1: Manufacturer: VirtualBox
+[24438.656841] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0004/input/input10
+[24438.766652] hid-generic 0003:80EE:0021.0004: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[24439.049615] e1000: eth0 NIC Link is Down
+[24443.050393] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
