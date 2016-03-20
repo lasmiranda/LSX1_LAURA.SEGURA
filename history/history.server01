@@ -1,0 +1,184 @@
+    1  pwd
+    2  ls
+    3  cp /home/sysadmin/drupal-7.43.tar.gz
+    4  cp /home/sysadmin/drupal-7.43.tar.gz .
+    5  ls
+    6  cp /home/sysadmin/drupal-7.43.tar.gz
+    7  cd ..
+    8  exit
+    9  cat /etc/sudders
+   10  sudo apt-install vimaps
+   11  cat /etc/sudoers
+   12  sudo apt-get install mail-utils
+   13  sudo apt-get install mailutils
+   14  ls /var/mail
+   15  echo Hola usuario, soy $USER | mail -s "prueba de correo" sysadmin
+   16  ls /var/mail/
+   17  ls /var/mail/ -l
+   18  cd /var/www
+   19  tree
+   20  vim html/index.html
+   21  ip -4 address
+   22  ifconfig
+   23  ls -l
+   24  cd /html
+   25  cd /var/www/html
+   26  ls
+   27  ls -l
+   28  mv index.html 1.html
+   29  ls -l
+   30  ls -la
+   31  lscpu
+   32  cd /proc/cpuinfo
+   33  cd ..
+   34  cd..
+   35  cd ..
+   36  cd /proc/cpuinfo
+   37  exit
+   38  cd /proc/cpuinfo
+   39  cd /proc/
+   40  cd /cpuinfo
+   41  cd /cpu info
+   42  cd ..}
+   43  cd ..
+   44  cd /var/www/html/
+   45  q
+   46  clear
+   47  dmesg | head > file1.txt
+   48  dmesg | tail -n 15 >> file1.txt
+   49  dmesg | tail -n 15 >> file2.txt
+   50  ls -l
+   51  mv 1.html index.html
+   52  ls -l
+   53  mkdir test1
+   54  touch test1/file3
+   55  tree
+   56  cd ..
+   57  cd  ..
+   58  cd /var/www/
+   59  file drupal-7.43.tar.gz 
+   60  tar xzf drupal-7.43.tar.gz 
+   61  ls 
+   62  less --help
+   63  cd drupal-7.43/
+   64  ls -l
+   65  cd sites/
+   66  ls -l
+   67  cd default/
+   68  tree
+   69  cd ..
+   70  tree
+   71  mkdir
+   72  mkdir www.buchi.com
+   73  cd www.buchi.com/
+   74  cp ../default/default.settings.php 
+   75  cp ../default/default.settings.php  .
+   76  ls
+   77  ls -l
+   78  cd ..
+   79  ls -l
+   80  tree
+   81  ls
+   82  ls -l
+   83  chown www-data  -R *
+   84  ls -l www.buchi.com/
+   85  cd www.buchi.com/
+   86  mv default.settings.php settings.php 
+   87  tree
+   88  ls -l
+   89  cd ..
+   90  ls -l
+   91  tree
+   92  cd www.buchi.com/
+   93  ls 
+   94  ls -l
+   95  chown www-data:www-data settings.php
+   96  pushd `pwd`
+   97  dirs
+   98  help dirs
+   99  dirs -v
+  100  popd
+  101  dirs -v
+  102  sudo apt-get install mysql-server
+  103  nmap
+  104  ifconfig
+  105  nmap 10.127.18.212
+  106  nmap 10.124.18.212
+  107  mysql_secure_installation
+  108  mysql -u root -p
+  109  cd ..
+  110  apt-get install git
+  111  mkdir LX1_laura
+  112  ls
+  113  git init
+  114  sudo apt-get install git
+  115  apt-get update
+  116  apt-get install git
+  117  git init
+  118  ls -l
+  119  ls
+  120  cd LX1_laura/
+  121  history > history
+  122  ls
+  123  git add history
+  124  git status
+  125  git commit -m "
+
+history 
+
+
+history history a}
+
+
+lrtkpoi4o0
+
+
+
+
+
+
+  126  touch dir1/
+  127  touch dir1
+  128  touch file1
+  129  touch file2
+  130  mkdir dir1
+  131  touch dir1/file3
+  132  ls
+  133  git commit -m "Inicializacion del arbol de desarrollo"
+  134  git config --global user.mail "lasmiranda25@gmail.com"
+  135  git config --global user.name "Laura Segura M"
+  136  git status
+  137  git commit -m "Inicializacion del arbol de desarrollo"
+  138  git commit --amend -reset -author
+  139  git config --global user.mail "lasmiranda25@gmail.com"
+  140  git commit -m "Inicializacion del arbol de desarrollo"
+  141* 
+  142  git config --global user.name "Laura Segura M"
+  143  git commit -m "Inicializacion del arbol de desarrollo"
+  144  git config --global user.name "Laura Segura M"
+  145  git config --global user.mail "lasmiranda25@gmail.com"
+  146  git commit -m "Inicializacion del arbol de desarrollo"
+  147  exit
+  148  git init
+  149  git config --global user.mail "lasmiranda25@gmail.com"
+  150  git config --global user.name "Laura Segura M"
+  151  git commit -m "Inicializacion del arbol de desarrollo"
+  152  git config --global user.email "lasmiranda25@gmail.com"
+  153  git commit -m "Inicializacion del arbol de desarrollo"
+  154  rm -r LX1_laura
+  155  cd ..
+  156  rm -r LX1_laura
+  157  mkdir LX1_laura
+  158  cd LX1_laura
+  159  git init
+  160  git config --global user.email "lasmiranda25@gmail.com"
+  161  git config --global user.name "Laura Segura M"
+  162  cat ~/.gitconfig
+  163  tree
+  164  ls -la
+  165  tree .
+  166  history
+  167  cat $hostname
+  168  echo $hostname
+  169  echo $HOSTNAME
+  170  history > history.$HOSTNAME
