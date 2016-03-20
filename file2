@@ -8,3 +8,7 @@
 [24438.766652] hid-generic 0003:80EE:0021.0004: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
 [24439.049615] e1000: eth0 NIC Link is Down
 [24443.050393] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         10.124.18.1     0.0.0.0         UG        0 0          0 eth0
+10.124.18.0     *               255.255.255.0   U         0 0          0 eth0
