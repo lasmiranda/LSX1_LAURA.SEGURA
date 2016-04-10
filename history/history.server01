@@ -1,0 +1,249 @@
+    1  pwd
+    2  ls
+    3  cp /home/sysadmin/drupal-7.43.tar.gz
+    4  cp /home/sysadmin/drupal-7.43.tar.gz .
+    5  ls
+    6  cp /home/sysadmin/drupal-7.43.tar.gz
+    7  cd ..
+    8  exit
+    9  cat /etc/sudders
+   10  sudo apt-install vimaps
+   11  cat /etc/sudoers
+   12  sudo apt-get install mail-utils
+   13  sudo apt-get install mailutils
+   14  ls /var/mail
+   15  echo Hola usuario, soy $USER | mail -s "prueba de correo" sysadmin
+   16  ls /var/mail/
+   17  ls /var/mail/ -l
+   18  cd /var/www
+   19  tree
+   20  vim html/index.html
+   21  ip -4 address
+   22  ifconfig
+   23  ls -l
+   24  cd /html
+   25  cd /var/www/html
+   26  ls
+   27  ls -l
+   28  mv index.html 1.html
+   29  ls -l
+   30  ls -la
+   31  lscpu
+   32  cd /proc/cpuinfo
+   33  cd ..
+   34  cd..
+   35  cd ..
+   36  cd /proc/cpuinfo
+   37  exit
+   38  cd /proc/cpuinfo
+   39  cd /proc/
+   40  cd /cpuinfo
+   41  cd /cpu info
+   42  cd ..}
+   43  cd ..
+   44  cd /var/www/html/
+   45  q
+   46  clear
+   47  dmesg | head > file1.txt
+   48  dmesg | tail -n 15 >> file1.txt
+   49  dmesg | tail -n 15 >> file2.txt
+   50  ls -l
+   51  mv 1.html index.html
+   52  ls -l
+   53  mkdir test1
+   54  touch test1/file3
+   55  tree
+   56  cd ..
+   57  cd  ..
+   58  cd /var/www/
+   59  file drupal-7.43.tar.gz 
+   60  tar xzf drupal-7.43.tar.gz 
+   61  ls 
+   62  less --help
+   63  cd drupal-7.43/
+   64  ls -l
+   65  cd sites/
+   66  ls -l
+   67  cd default/
+   68  tree
+   69  cd ..
+   70  tree
+   71  mkdir
+   72  mkdir www.buchi.com
+   73  cd www.buchi.com/
+   74  cp ../default/default.settings.php 
+   75  cp ../default/default.settings.php  .
+   76  ls
+   77  ls -l
+   78  cd ..
+   79  ls -l
+   80  tree
+   81  ls
+   82  ls -l
+   83  chown www-data  -R *
+   84  ls -l www.buchi.com/
+   85  cd www.buchi.com/
+   86  mv default.settings.php settings.php 
+   87  tree
+   88  ls -l
+   89  cd ..
+   90  ls -l
+   91  tree
+   92  cd www.buchi.com/
+   93  ls 
+   94  ls -l
+   95  chown www-data:www-data settings.php
+   96  pushd `pwd`
+   97  dirs
+   98  help dirs
+   99  dirs -v
+  100  popd
+  101  dirs -v
+  102  sudo apt-get install mysql-server
+  103  nmap
+  104  ifconfig
+  105  nmap 10.127.18.212
+  106  nmap 10.124.18.212
+  107  mysql_secure_installation
+  108  mysql -u root -p
+  109  cd ..
+  110  apt-get install git
+  111  mkdir LX1_laura
+  112  ls
+  113  git init
+  114  sudo apt-get install git
+  115  apt-get update
+  116  apt-get install git
+  117  git init
+  118  ls -l
+  119  ls
+  120  cd LX1_laura/
+  121  history > history
+  122  ls
+  123  git add history
+  124  git status
+  125  git commit -m "
+  126  history 
+  127  history history a}
+  128  lrtkpoi4o0
+  129  touch dir1/
+  130  touch dir1
+  131  touch file1
+  132  touch file2
+  133  mkdir dir1
+  134  touch dir1/file3
+  135  ls
+  136  git commit -m "Inicializacion del arbol de desarrollo"
+  137  git config --global user.mail "lasmiranda25@gmail.com"
+  138  git config --global user.name "Laura Segura M"
+  139  git status
+  140  git commit -m "Inicializacion del arbol de desarrollo"
+  141  git commit --amend -reset -author
+  142  git config --global user.mail "lasmiranda25@gmail.com"
+  143  git commit -m "Inicializacion del arbol de desarrollo"
+  144  git config --global user.name "Laura Segura M"
+  145  git commit -m "Inicializacion del arbol de desarrollo"
+  146  git config --global user.name "Laura Segura M"
+  147  git config --global user.mail "lasmiranda25@gmail.com"
+  148  git commit -m "Inicializacion del arbol de desarrollo"
+  149  exit
+  150  git init
+  151  git config --global user.mail "lasmiranda25@gmail.com"
+  152  git config --global user.name "Laura Segura M"
+  153  git commit -m "Inicializacion del arbol de desarrollo"
+  154  git config --global user.email "lasmiranda25@gmail.com"
+  155  git commit -m "Inicializacion del arbol de desarrollo"
+  156  rm -r LX1_laura
+  157  cd ..
+  158  rm -r LX1_laura
+  159  mkdir LX1_laura
+  160  cd LX1_laura
+  161  git init
+  162  git config --global user.email "lasmiranda25@gmail.com"
+  163  git config --global user.name "Laura Segura M"
+  164  cat ~/.gitconfig
+  165  tree
+  166  ls -la
+  167  tree .
+  168  history
+  169  cat $hostname
+  170  echo $hostname
+  171  echo $HOSTNAME
+  172  history > history.$HOSTNAME
+  173  mkdir history
+  174  mv history.server01 history
+  175  tree
+  176  git status
+  177  git add history
+  178  git status
+  179  git add historytree
+  180  tree
+  181  git status
+  182  git commit -m "Inicializacion del repositorio"
+  183  git commit --amend --reset-author
+  184  git log
+  185  git status
+  186  git status
+  187  git log
+  188  ld
+  189  ls
+  190  mv history.server01 history
+  191  ls
+  192  git status
+  193  mkdir file2
+  194  dmesg | tail > file2
+  195  rm file2/
+  196  rm -r file2/
+  197  catch file2
+  198  touch file2
+  199  dmesg | tail > file2
+  200  mkdir dir1
+  201  netstat -atunpl > dir1/file3
+  202  tree
+  203  ls -lh
+  204  git add dir1/file3
+  205  git add file2
+  206  git status
+  207  touch file1
+  208  git status
+  209  git commit -m "cabeza del kernel + estado de las conecixiones"
+  210  git log
+  211  git commit -m "cabeza del kernel + estado de las conecixiones"
+  212  netstat -r
+  213  netstat -r >> file2
+  214  git status
+  215  git add file2
+  216  git log
+  217  git status
+  218  git commit -m "Tabla de enrutamiento del servidor"
+  219  git log
+  220  git remote add repo.github http://github.com/lasmiranda/LSX_LAURA.SEGURA.git
+  221  git remote -v
+  222  git push -u repo.git master
+  223  git push -u repo.github master
+  224  git push -u repo.git master
+  225  git push -u repo.github master
+  226  git remote add repo.github http://github.com/lasmiranda/LSX1_LAURA.SEGURA.git
+  227  git remote add repo1.github http://github.com/lasmiranda/LSX1_LAURA.SEGURA.git
+  228  git push -u repo1.github master
+  229  history
+  230  history > history/history.server01 
+  231  git status
+  232  git add history/history.server01 
+  233  git sta
+  234  git status
+  235  git commit - m "history con cambios del arbol de git"
+  236  git commit -m "history con cambios del arbol de git"
+  237  git log
+  238  git push -u repo1.github master
+  239  git commit - m "history con cambios del arbol de git"
+  240  exit
+  241  history > history/history.server01 
+  242  cd ..
+  243  history > history/history.server01 
+  244  ls
+  245  cd LX1_laura/
+  246  history > history/history.server01 
+  247  git push -u repo1.github master
+  248  history
+  249  history > history/history.server01 
