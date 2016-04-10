@@ -1,0 +1,85 @@
+    1  sudo scp /home/sysadmin/laura.txt sysadmin@192.168.1.60:/home/sysadmin/Documents
+    2  sudo scp /home/sysadmin/laura.txt sysadmin@192.168.1.59:/home/sysadmin/Documents
+    3  ls
+    4  echo >> "Babotas"
+    5  cat laura.txt
+    6  echo >> laura.txt "Babotas"
+    7  cat laura.txt
+    8  echo >> laura.txt "Babotas y patotas"
+    9  cat laura.txt
+   10  LS
+   11  ls
+   12  cd LX_LAURA/
+   13  git init
+   14  touch test1.txt
+   15  nano test1
+   16  cat test1
+   17  git add test1
+   18  git log
+   19  git status
+   20  ls
+   21  cat test1.txt
+   22  cat test1
+   23  git commit -m "Prueba sabado"
+   24  git config --global user.email "lasmiranda25@gmail.com"
+   25  git config --global user.name "Laura Segura"
+   26  git commit -m "Prueba sabado"
+   27  ip add
+   28  git init
+   29  cd ..
+   30  rm LX_LAURA
+   31  rm -r LX_LAURA
+   32  ls
+   33  mkdir LX1_LAURA
+   34  cd LX1_LAURA/
+   35  init git
+   36  git init
+   37  git config --global user.email "lasmiranda25@gmail.com"
+   38  git config --global user.name "laura"
+   39  tree
+   40  apt-get install tree
+   41  sudo apt-get install tree
+   42  apt-get install tree
+   43  sudo apt-get install tree
+   44  ree
+   45  tree
+   46  sudo apt-get upgrade
+   47  exit
+   48  sudo apt-get update
+   49  exit
+   50  sudo apt-get update
+   51  cd ..
+   52  exit
+   53  sudo apt-get update
+   54  exit
+   55  logout
+   56  ls
+   57  cd LX1_LAURA/
+   58  cat ~/.gitconfig
+   59  touch testLau
+   60  tree
+   61  sudo apt-get install tree
+   62  git log
+   63  git status
+   64  git add testLau
+   65  git status
+   66  git commit -m "test de commit"
+   67  git log
+   68  git remote add repo1.github https://github.com/lasmiranda/LSX1_LAURA.SEGURA.git
+   69  git remote -v
+   70  git push -u repo1.github master
+   71  git remote -v
+   72  git remote add repotest.github https://github.com/lasmiranda/LSX1_LAURA.SEGURA.git
+   73  git remote -v
+   74  git push -u repotest.github master
+   75  git pull
+   76  git pull repotest.github master
+   77  git push -u repotest.github master
+   78  touch history/history.home
+   79  history
+   80  cat history
+   81  cat history/history.home
+   82  nano histor
+   83  nano history
+   84  history
+   85  history > history/history.home
