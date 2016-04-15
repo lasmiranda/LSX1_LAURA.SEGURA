@@ -1,0 +1,469 @@
+    1  mkdir public_html
+    2  ls
+    3  mkdir -p public_html/domain1.com/{public,private,log,cgi-bin,backup}
+    4  mkdir -p public_html/domain2.com/{public,private,log,cgi-bin,backup}
+    5  ls
+    6  cd public_html/
+    7  ls
+    8  cd ..
+    9  cd home
+   10  cd /home
+   11  ls
+   12  cd ..
+   13  ls
+   14  ls -la
+   15  cd home
+   16  ls
+   17  cd ..
+   18  cd /home
+   19  ls
+   20  cd sysadmin/
+   21  ls
+   22  cd ..
+   23  ls
+   24  ls -la
+   25  ls -a
+   26  cd home
+   27  cd /public_html
+   28  cd..
+   29  cd ..
+   30  cd /public_html
+   31  cd ..
+   32  exi
+   33  exit
+   34  ls
+   35  location
+   36  pwd
+   37  ls
+   38  exit
+   39  ls
+   40  nano public_html/domain1.com/public/index.html
+   41  cd public_html/
+   42  cd domain1.com
+   43  cd public/
+   44  ls
+   45  cat index.html 
+   46  cd ..
+   47  rm -r public_html/
+   48  ls
+   49  mkdir public_html
+   50  mkdir -p public_html/manri.com/{public,private,log,cgi-bin,backup}
+   51  mkdir -p public_html/shawi.com/{public,private,log,cgi-bin,backup}
+   52  ls
+   53  cd public_html/
+   54  ls
+   55  cd ..
+   56  nano public_html/manri.com/public/index.html
+   57  nano public_html/shawi.com/public/index.html
+   58  cat /etc/apache2
+   59  cat /etc/apache2/ports.conf 
+   60  sudo nano /etc/apache2/sites-available/manri.com.conf
+   61  sudo nano /etc/apache2/sites-available/shawi.com.conf
+   62  cd /etc/
+   63  cd /apache2
+   64  ls
+   65  cd apache
+   66  cd apache2
+   67  ls
+   68  cd /sites-available
+   69  cd sites-available/
+   70  ls
+   71  cd ..
+   72  cd ~
+   73  sudo a2ensite manri.com
+   74  service apache2 reload
+   75  sudo a2ensite manri.com
+   76  /etc/init.d/apache2 reload to enable
+   77  sudo /etc/init.d/apache2 reload
+   78  cd /etc/
+   79  ls
+   80  cd hosts
+   81  cd /hosts
+   82  ls
+   83  cd /hosts
+   84  cd hosts
+   85  cat hosts
+   86  nano hosts
+   87  cat hosts
+   88  nano hosts
+   89  cd ..
+   90  cd home
+   91  cd ~
+   92  ls /var/log/apache2/error-mydomainname.com.log 
+   93  cat /var/log/apache2/error-mydomainname.com.log 
+   94  cd /var/log/apache2/error-mydomainname.com.log 
+   95  cd /var/log/apache2/
+   96  ls
+   97  cat error-mydomainname.com.log 
+   98  nano error-mydomainname.com.log 
+   99  chmod a+rwx /var/www/*
+  100  cd ..
+  101  cd..
+  102  cd ..
+  103  chmod a+rwx /var/www/*
+  104  sud service apache2 restart
+  105  service apache2 restart
+  106  sudo chmod 755 html -R
+  107  chown -R www.data:www-data manri.com
+  108  cd etc/
+  109  cd www
+  110  cd /www
+  111  cd ..
+  112  cd var/
+  113  cd www/
+  114  ls
+  115  cd html/
+  116  ls
+  117  cd sites/
+  118  ls
+  119  cd ..
+  120  sud service apache2 restart
+  121  /etc/init.d/apache2 reload to enable
+  122  cd var/
+  123  cd www/
+  124  cd html/
+  125  ls
+  126  ls -a
+  127  apache2
+  128  nano apache2.config
+  129  cat apache2.config
+  130  cd /var/log/ 
+  131  cd /apache2
+  132  cd ..
+  133  cd etc/
+  134  cd apache2
+  135  ls
+  136  nano apache2.conf 
+  137  sudo service apache restart
+  138  sudo service apache2 restar
+  139  sudo service apache2 restart
+  140  nano apache2.conf 
+  141  sudo service apache2 restart
+  142  ls
+  143  cd sites-available/
+  144  ls
+  145  nano manri.com.conf 
+  146  cd ..
+  147  cd ~
+  148  ls
+  149  cd public_html/
+  150  cd
+  151  ls
+  152  cd public_html/
+  153  ls
+  154  cd manri.com/
+  155  ls
+  156  cd public/
+  157  ls
+  158  cd ..
+  159  cd ...
+  160  cd ..
+  161  ls
+  162  cd ..
+  163  cd /home/
+  164  ls
+  165  cd ..
+  166  ls
+  167  cd root
+  168  cd ..
+  169  cd etc/
+  170  ls
+  171  cd ..
+  172  sudo nano /etc/apache2/sites-available/manri.com.conf 
+  173  cd ..
+  174  sudo nano /etc/apache2/sites-available/manri.com.conf 
+  175  sudo service apache2 restart
+  176  sudo nano /etc/apache2/sites-available/manri.com.conf 
+  177  mkdir -p public_html/domain1.com/{public,private,log,cgi-bin,backup}
+  178  nano public_html/domain1.com/public/index.html
+  179  cat /etc/apache2/ports.conf
+  180  nano /etc/apache2/ports.conf
+  181  sudo nano /etc/apache2/sites-available/domain1.com.conf
+  182  sudo a2ensite domain1.com
+  183  Site domain1.com installed; run /etc/init.d/apache2 reload to enable.
+  184  /etc/init.d/apache2 reload to enable.
+  185  sudo /etc/init.d/apache2 reload
+  186  ifconfig
+  187  rm -r public_html/
+  188  cd /var/www/
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd ..
+  193  cd etc/
+  194  ls
+  195  cd hosts
+  196  cd /hostss
+  197  nano hosts
+  198  sudo apt-update
+  199  sudo apt-get update
+  200  sudo apt-get install apache2 mysql-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt php5-gd
+  201  sudo nano /etc/apache2/mods-enabled/dir.conf
+  202  sudo service apache2 restart
+  203  mysql -u root -p
+  204  cd ..
+  205  cd /var/
+  206  cd /www
+  207  cd www
+  208  cd /drupal
+  209  cd drupal
+  210  ls
+  211  cd ..
+  212  cd..
+  213  cd ..
+  214  d ~
+  215  cd ~
+  216  wget http://ftp.drupal.org/files/projects/drupal-7.23.tar.gz
+  217  tar xzvf drupal-7.23.tar.gz
+  218  sudo mv drupal-7.23 /var/www/drupal
+  219  cd /var/www/drupal/sites
+  220  cp default/default.settings.php default/settings.php
+  221  sudo chmod -R a+rw default
+  222  cd /var/www/drupal/sites
+  223  cp -a default manri.com
+  224  cp -a default shawi.com
+  225  cd /etc/apache2/sites-available
+  226  sudo nano drupal
+  227  sudo a2ensite drupal
+  228  cd ..
+  229  sudo a2ensite drupal
+  230  sudo nano drupal
+  231  sudo a2ensite drupal
+  232  sudo nano drupal
+  233  sudo a2ensite drupal
+  234  cd ..
+  235  cd /var/
+  236  cd /ww
+  237  cd www
+  238  cd drupal
+  239  cd sites
+  240  ls
+  241  cd ..
+  242  sudo a2ensite drupal
+  243  sudo nano drupal
+  244  cd /var/www/drupal/sites
+  245  cd /etc/apache2/sites-available
+  246  sudo nano drupal
+  247  sudo a2ensite drupal
+  248  sudo service apache2 restart
+  249  cd ..
+  250  cd var
+  251  cd www
+  252  cd drupal
+  253  cd sites
+  254  cp -a default manri.com.firstsite
+  255  root@server01:/var/www/drupal/sites#
+  256  sudo ln -s /var/www/drupal /var/www/firstsite
+  257  sudo ln -s /var/www/drupal /var/www/secondsite
+  258  cp -a default manri.com.firstsite
+  259  cd ..
+  260  cd /var/www/drupal
+  261  cp -a default manri.example.com
+  262  cd .. 
+  263  cd ..
+  264  cd var
+  265  cd www
+  266  cd drupal
+  267  cd sites
+  268  cp -a default manrique.com
+  269  cp -a default shawi.com
+  270  cd /etc/apache2/sites-available
+  271  ls
+  272  sudo nano drupal 
+  273  sudo a2ensite drupal
+  274  sudo nano drupal 
+  275  sudo a2ensite drupal
+  276  service apache2 relod
+  277  sudo service apache2 reload
+  278  sudo a2ensite drupal
+  279  sudo nano drupal 
+  280  sudo a2ensite drupal
+  281  ls  drupal 
+  282  ls -la drupal
+  283  sudo a2ensite drupal.config
+  284  sudo a2ensite drupal
+  285  ls
+  286  a2ensite drupal
+  287  sudo nano drupal.config
+  288  nano a2ensite drupal
+  289  sudo a2ensite drupal
+  290  sudo a2ensite drupal.config
+  291  tar xzvf drupal-7.23.tar.gz
+  292  cd ..
+  293  tar xzvf drupal-7.23.tar.gz
+  294  sudo mv drupal-7.23 /var/www/drupal
+  295  cd ~
+  296  wget http://ftp.drupal.org/files/projects/drupal-7.23.tar.gz
+  297  tar xzvf drupal-7.23.tar.gz
+  298  sudo mv drupal-7.23 /var/www/drupal
+  299  cd /var/www/drupal/sites
+  300  cp default/default.settings.php default/settings.php
+  301  sudo chmod -R a+rw default
+  302  cd /var/www/drupal/sites
+  303  cp -a default firstsite.com
+  304  cp -a default secondsite.com
+  305  cd /etc/apache2/sites-available
+  306  sudo nano drupal
+  307  sudo a2ensite drupal
+  308  sudo chmod -R a+rw defaultcd /var/www/drupal/sites
+  309  cd /var/www/drupal/sites
+  310  cp default/default.settings.php default/settings.php
+  311  sudo chmod -R a+rw default
+  312  cd /var/www/drupal/sites
+  313  cp -a default manri.com
+  314  cp -a default shawi.com
+  315  cd /etc/apache2/sites-available
+  316  ls
+  317  sudo nano drupal
+  318  sudo a2ensite drupal
+  319  ls
+  320  cat drupal.config 
+  321  cat drupal
+  322  sudo a2ensite drupal.config
+  323  sudo service apache2 restart
+  324  sudo a2ensite drupal
+  325  sudo a2ensite apache.conf
+  326  sudo a2ensite drupal.conf
+  327  sudo a2ensite drupal.confls
+  328  ls
+  329  sudo nano drupal.config
+  330  sudo a2ensite drupal
+  331  ls
+  332  sudo a2ensite drupal.conf
+  333  sudo service apache2 restart
+  334  ls
+  335  nano manri.com.conf 
+  336  cd /var/www/
+  337  ls
+  338  cd firstsite
+  339  ls
+  340  cd ..
+  341  cp firstsite manri
+  342  ls
+  343  sudo ln -s /var/www/drupal /var/www/manri
+  344  ls
+  345  cd /etc/
+  346  ls
+  347  cd apache2
+  348  ls
+  349  cd sites-available/
+  350  ls
+  351  sudo nano manri.com.conf 
+  352  ls
+  353  cd /etc
+  354  nano hosts
+  355  ifconfig
+  356  ls
+  357  nano hosts
+  358  ping 192.168.1.60
+  359  exit
+  360  toor
+  361  cd /etc/apache2/sites-available/
+  362  ls
+  363  cat botas.com.conf 
+  364  cat manri.com.conf 
+  365  cat botas.com.conf 
+  366  cat manri.com.conf 
+  367  service apache2 restart 
+  368  ls
+  369  a2ensite manri.com.conf
+  370  service apache2 restart 
+  371  cd ..
+  372  cd sites-enabled/
+  373  ls
+  374  rm shawi.com.conf 
+  375  service apache2 restart 
+  376  cd
+  377  cd /etc/apache2/sites-available/
+  378  nano manri.com.conf 
+  379  service apache2 restart 
+  380  cat manri.com.conf 
+  381  cd ..
+  382  cd sites-enabled/
+  383  ls
+  384  nano manri.com.conf 
+  385  service apache2 reload 
+  386  ls
+  387  rm domain1.com.conf 
+  388  ls
+  389  rm drupal.conf 
+  390  ls
+  391  cd..
+  392  cd ..
+  393  l
+  394  ls
+  395  cd sites-available/
+  396  ls
+  397  rm drupal.conf
+  398  rm drupal.config 
+  399  ls
+  400  rm drupal 
+  401  ls
+  402  cd 
+  403  /var/www/html/
+  404  cd /var/www/html/
+  405  ls
+  406  cd
+  407  cd /etc/apache2/sites-available/
+  408  ls
+  409  rm domain1.com.conf 
+  410  ls
+  411  cat 000-default.conf 
+  412  nano  000-default.conf 
+  413  nano  manri.com.conf 
+  414  cd /var/www/html/
+  415  ls
+  416  cd /etc/apache2/sites-available/
+  417  ls
+  418  service apache2 restart 
+  419  ls
+  420  rm manri.com.conf 
+  421  ls
+  422  cp 000-default.conf shawi.com.conf
+  423  a2ensite shawi.com.conf 
+  424  service apache2 reload 
+  425  ls
+  426  cd
+  427  cd /etc/apache2/
+  428  ls
+  429  nano apache2.conf 
+  430  cd
+  431  service apache2 reload 
+  432  cd /etc/apache2/
+  433  sites-enabled/
+  434  cd sites-enabled/
+  435  ls
+  436  rm manri.com.conf 
+  437  ls
+  438  service apache2 reload 
+  439  nano shawi.com.conf 
+  440  ls
+  441  service apache2 restart 
+  442  ls
+  443  exit
+  444  history
+  445  cd ~
+  446  ls
+  447  exit
+  448  ls
+  449  history
+  450  cd ..
+  451  ls
+  452  exit
+  453  ls
+  454  cd ..
+  455  ls
+  456  mv tmp/history_root_$HOSTNAME history
+  457  cd tmp
+  458  cd ..
+  459  cd tmp
+  460  mv tmp/history_root_$HOSTNAME history
+  461  touch history_root_$HOSTNAME
+  462  mv tmp/history_root_$HOSTNAME history
+  463  mv history_root_$HOSTNAME history
+  464  ls
+  465  cat history 
+  466  nano history 
+  467  rm history 
+  468  ls
+  469  history > history_root_$HOSTNAME

@@ -1,0 +1,124 @@
+    1  sudo scp /home/sysadmin/laura.txt sysadmin@192.168.1.60:/home/sysadmin/Documents
+    2  sudo scp /home/sysadmin/laura.txt sysadmin@192.168.1.59:/home/sysadmin/Documents
+    3  ls
+    4  echo >> "Babotas"
+    5  cat laura.txt
+    6  echo >> laura.txt "Babotas"
+    7  cat laura.txt
+    8  echo >> laura.txt "Babotas y patotas"
+    9  cat laura.txt
+   10  LS
+   11  ls
+   12  cd LX_LAURA/
+   13  git init
+   14  touch test1.txt
+   15  nano test1
+   16  cat test1
+   17  git add test1
+   18  git log
+   19  git status
+   20  ls
+   21  cat test1.txt
+   22  cat test1
+   23  git commit -m "Prueba sabado"
+   24  git config --global user.email "lasmiranda25@gmail.com"
+   25  git config --global user.name "Laura Segura"
+   26  git commit -m "Prueba sabado"
+   27  ip add
+   28  git init
+   29  cd ..
+   30  rm LX_LAURA
+   31  rm -r LX_LAURA
+   32  ls
+   33  mkdir LX1_LAURA
+   34  cd LX1_LAURA/
+   35  init git
+   36  git init
+   37  git config --global user.email "lasmiranda25@gmail.com"
+   38  git config --global user.name "laura"
+   39  tree
+   40  apt-get install tree
+   41  sudo apt-get install tree
+   42  apt-get install tree
+   43  sudo apt-get install tree
+   44  ree
+   45  tree
+   46  sudo apt-get upgrade
+   47  exit
+   48  sudo apt-get update
+   49  exit
+   50  sudo apt-get update
+   51  cd ..
+   52  exit
+   53  sudo apt-get update
+   54  exit
+   55  logout
+   56  mkdir public_html
+   57  sudo su -
+   58  cd ..
+   59  cd ~
+   60  ls
+   61  sudo su -
+   62  sudo su -
+   63* 
+   64  sudo su-
+   65  sudo su -
+   66  exit
+   67  history
+   68  sudo su -
+   69  ls
+   70  cd LX1_LAURA/
+   71  ls
+   72  cd
+   73  cd ..
+   74  sudo su -
+   75  cd ..
+   76  ls
+   77  history
+   78  ls
+   79  cd home/
+   80  ls
+   81  cd ..
+   82  mkdir tmp
+   83  cd tmp
+   84  ls
+   85  cd ..
+   86  sudo su -
+   87  cd ~
+   88  ls
+   89  cd
+   90  cd LX1_LAURA/
+   91  LS
+   92  ls
+   93  nano histor.save
+   94  rm histor.save
+   95  ls
+   96  cd history/
+   97  cd ..
+   98  cd history/
+   99  mv tmp/history_root_$HOSTNAME .
+  100  cd ..
+  101  cd history/
+  102  ls 
+  103  cd ..
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd ..
+  108  ls
+  109  mv tmp/history_root_server01 ~/LX1_LAURA/history/
+  110  sudo mv tmp/history_root_server01 ~/LX1_LAURA/history/
+  111  cd ~
+  112  cd LX1_LAURA/
+  113  cd history/
+  114  ls
+  115  rn history.server01 history_clases
+  116  cd ..
+  117  cd .
+  118  cd ..
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd tmp
+  123  touch history_sysadmin_$HOSTNAME
+  124  history > history_sysadmin_server01 
